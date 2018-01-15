@@ -9,10 +9,8 @@ def initialize
 @age = age
 end
 
-self.all
+def self.all
 @@all << self
 end
 
 end
-
-
